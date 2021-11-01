@@ -1,0 +1,247 @@
+{
+  "@graph": [
+    {
+      "@type": "Question",
+      "text": "Korean Fried Chicken or Buffalo Wings?",
+      "suggestedAnswer": [
+        {
+          "@type": "Answer",
+          "text": "KFC! Can't say no to that spicy-sweet combo"
+        },
+        {
+          "@type": "Answer",
+          "text": "Buffalo, can't beat that buttery, vinegary flavor!"
+        }
+      ]
+    }
+  ],
+  "@context": "http://schema.org",
+  "url": "https://www.delish.com/cooking/recipe-ideas/a26089644/korean-fried-chicken-recipe/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Delish",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://assets.hearstapps.com/sites/delish/assets/images/logos/logo-jsonld.58eed96.png",
+      "width": 219,
+      "height": 60
+    }
+  },
+  "@type": "Recipe",
+  "author": {
+    "name": "June Xie",
+    "@type": "Person"
+  },
+  "datePublished": "2019-02-04T18:42:39.756592Z",
+  "headline": "Korean Fried Chicken",
+  "image": {
+    "@type": "ImageObject",
+    "height": 500,
+    "thumbnail": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190130-korean-fried-chicken-horizontal-041-1549304734.jpg?crop=0.502xw:1.00xh;0.139xw,0&resize=100:*",
+    "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190130-korean-fried-chicken-horizontal-041-1549304734.jpg",
+    "width": 1000
+  },
+  "mainEntityOfPage": {
+    "@id": "https://www.delish.com/cooking/recipe-ideas/a26089644/korean-fried-chicken-recipe/",
+    "@type": "WebPage"
+  },
+  "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190130-korean-fried-chicken-horizontal-041-1549304734.jpg?crop=0.502xw:1.00xh;0.139xw,0&resize=100:*",
+  "dateModified": "2021-05-20T22:33:00Z",
+  "isAccessibleForFree": "False",
+  "hasPart": [
+    {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".content-container"
+    }
+  ],
+  "name": "Korean Fried Chicken",
+  "prepTime": "PT15M",
+  "cookTime": "PT0S",
+  "totalTime": "PT1H",
+  "recipeIngredient": [
+    "1 tsp. kosher salt",
+    "1/2 tsp. freshly ground black pepper",
+    "1/2 tsp. baking powder",
+    "1/2 tsp. garlic powder",
+    "2 lb. chicken wings",
+    "1 tbsp. freshly grated ginger",
+    "1/2 c. cornstarch",
+    "3 tbsp. butter",
+    "5 small dried red chilis, sliced",
+    "1 tbsp. freshly minced ginger",
+    "3 cloves garlic, minced",
+    "1/4 c. gochujang",
+    "2 tbsp. ketchup",
+    "1 tbsp. rice vinegar",
+    "1 tbsp. low-sodium soy sauce",
+    "1/4 c. honey",
+    "2 tbsp. packed brown sugar&nbsp;",
+    "1/2 c. cocktail peanuts",
+    "1 tbsp. sesame seeds",
+    "1 green onion, sliced"
+  ],
+  "recipeInstructions": "Make wings:&nbsp;In a deep pot over medium-high heat, heat 4 to 6 cups vegetable oil to 275\u00b0. Line a large plate or baking sheet with paper towels. In a small bowl, combine salt, pepper, baking powder, and garlic powder.&nbsp; Pat wings dry with paper towels, then rub with grated ginger and season with salt mixture. In a large bowl, toss wings with cornstarch and squeeze to compress coating onto each wing. Carefully add wings to oil and fry until skin is just lightly crisped and golden, occasionally flipping with tongs, about 15 to 18 minutes. Remove wings from oil and set aside on prepared plate. Let rest briefly. Heat frying oil to 400\u00b0. Return wings to pot and fry again until deeply golden and skin is crisp and crunchy, about 7 to 8 minutes. Remove wings from oil and place in a large mixing bowl. Make sauce: In a medium saucepan over medium-low heat, add butter, dried chilis, ginger, and garlic and cook until fragrant, 2 minutes. Stir in gochujang, ketchup, vinegar, and soy sauce and cook until bubbling. Stir in honey and brown sugar and continue cooking until bubbling and slightly thickened. Pour sauce over wings and toss until evenly coated. Add in peanuts and toss to combine. Garnish with sesame seeds and green onion&nbsp;before serving.",
+  "video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://streaming.hearstdigitalstudios.com/9736df89-dd31-40bf-b699-08ba06254cec/video_rover_16x9_1080p_hd_1621549661_84312.mp4",
+    "description": "Nicknamed \u201ccandy chicken,\u201d Korean fried chicken is known for its addictively crunchy exterior and its thick sweet-and-spicy sauce.",
+    "duration": "PT7M11S",
+    "embedUrl": "https://glimmer.hearstapps.com/?id=e0a0dd98-141a-4d99-b721-ecfed4d4cffe",
+    "name": "Double-Fried Korean Fried Chicken Is Super Extra Crunchy",
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod/images/190130-korean-fried-chicken-050-1549695542.jpg",
+    "uploadDate": "2021-05-20T22:24:07.492379Z"
+  },
+  "recipeCuisine": [
+    "American",
+    "Asian"
+  ],
+  "aggregateRating": {
+    "@context": "http://schema.org/",
+    "@type": "AggregateRating",
+    "ratingValue": 4.571429,
+    "ratingCount": 7,
+    "worstRating": 1,
+    "bestRating": 5
+  },
+  "review": [
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2020-09-07",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Lani"
+      },
+      "reviewBody": "I made this dish last night, it turn to be best wings ever",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2021-02-26",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "rumrasin"
+      },
+      "reviewBody": "I made these wings for the first time a few days ago.  I'm recently obsessed with Korean food due to Mukbang videos (Don't judge me).  I have to say these were the best wings ever.  I'm mad that I left a few unsauced.  I'm going to sprinkle the wings with black sesame seeds and garnish with scallion.  I will also add that I had pickled radish with it and the wings were even better.",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2020-01-11",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "OrangeBeer"
+      },
+      "reviewBody": "Yum... what an incredible dish. A little time consuming for first attempt. Tip, gochujang is extremely hot, I don't  recommend using the whole amount.",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2021-08-02",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "sleepjunkie"
+      },
+      "reviewBody": "Best KFC I've made so far! Stayed crispy longer which is what I miss from other recipes. I made a side of myulchi bokkeum.",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2020-08-11",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Jing"
+      },
+      "reviewBody": "Amazing! Everyone in the house were satisfied with this recipe. \ud83d\udc4d\ud83c\udffb\ud83d\udc4d\ud83c\udffb",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2021-05-27",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "gdk5303"
+      },
+      "reviewBody": "It\u2019s not worth the mess, the clean up, the grease,. The times for frying are completely wrong,  given the effort to make these sticky messy pieces of fried stuff.  It\u2019s not worth your time.",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 2,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished": "2019-02-18",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "RedCarrot"
+      },
+      "reviewBody": "This was my first try at making wings at home and I\u2019ll tell you this recipie was amazing. The only thing I wish I had done differently would be to get a a hotter pepper paste. The one I had was light on the heat. It was the brand I got. I was not able to double fry my wings because I couldn\u2019t check my temp. I will continue using this recipe and get a new thermometer to double fry.",
+      "reviewRating": {
+        "@context": "http://schema.org/",
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    }
+  ],
+  "recipeCategory": [
+    "dairy-free",
+    "picnic",
+    "Super Bowl",
+    "tailgate",
+    "appetizers",
+    "fried",
+    "poultry"
+  ],
+  "recipeYield": "4 servings",
+  "description": "Get ready for extra-crispy Korean Fried Chicken with this recipe from Delish.com.",
+  "keywords": "korean fried chicken, korean fried chicken recipe, easy korean fried chicken, best korean fried chicken, homemade korean fried chicken, how to make korean fried chicken, crispy fried chicken, double fried chicken, extra crispy fried chicken"
+}

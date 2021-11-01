@@ -1,0 +1,234 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.koreanbapsang.com/#website",
+      "url": "https://www.koreanbapsang.com/",
+      "name": "Korean Bapsang",
+      "description": "a Korean mom&#039;s home cooking",
+      "publisher": {
+        "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": "https://www.koreanbapsang.com/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_06281-e1422146518897.jpg",
+      "width": 650,
+      "height": 971
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#webpage",
+      "url": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/",
+      "name": "Korean Soft Tofu Stew ( Kimchi Soondubu Jjigae\u00a0) | Korean Bapsang",
+      "isPartOf": {
+        "@id": "https://www.koreanbapsang.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#primaryimage"
+      },
+      "datePublished": "2015-01-20T04:40:02+00:00",
+      "dateModified": "2021-03-22T04:10:54+00:00",
+      "description": "Go bold or go home with this Korean Tofu Stew with silken tofu, sliced meat and kimchi. It only takes 30 minutes to prepare this Korean comfort food soup.\u00a0",
+      "breadcrumb": {
+        "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.koreanbapsang.com/",
+            "url": "https://www.koreanbapsang.com/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.koreanbapsang.com/category/stew/",
+            "url": "https://www.koreanbapsang.com/category/stew/",
+            "name": "Stew"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/",
+            "url": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/",
+            "name": "Kimchi Soondubu Jjigae (Soft Tofu Stew)"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#article",
+      "isPartOf": {
+        "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#webpage"
+      },
+      "author": {
+        "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff"
+      },
+      "headline": "Kimchi Soondubu Jjigae (Soft Tofu Stew)",
+      "datePublished": "2015-01-20T04:40:02+00:00",
+      "dateModified": "2021-03-22T04:10:54+00:00",
+      "commentCount": 161,
+      "publisher": {
+        "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff"
+      },
+      "image": {
+        "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#primaryimage"
+      },
+      "keywords": "jjigae,kimchi,Korean,soondubu,stew,sundubu,tofu",
+      "articleSection": "Favorites,Kimchi dishes,Recipes,Stew",
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Person",
+        "Organization"
+      ],
+      "@id": "https://www.koreanbapsang.com/#/schema/person/657e3096afd193e1669718fdf11630ff",
+      "name": "Hyosun",
+      "logo": {
+        "@id": "https://www.koreanbapsang.com/#personlogo"
+      },
+      "sameAs": [
+        "https://www.koreanbapsang.com/"
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Kimchi Soondubu Jjigae",
+      "author": {
+        "@type": "Person",
+        "name": "Hyosun"
+      },
+      "description": "This warming and comforting soondubu jjigae is made with extra soft tofu, soondubu, thinly sliced meat, kimchi and anchovy broth.  It takes less than 30 minutes to prepare this bubbling pot of stew packed with robust flavors!",
+      "datePublished": "2015-01-19T23:40:02+00:00",
+      "image": [
+        "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0607-e1421723811218.jpg",
+        "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0607-e1421723811218-500x435.jpg",
+        "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0607-e1421723811218-500x375.jpg",
+        "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0607-e1421723811218-480x270.jpg"
+      ],
+      "video": {
+        "name": "Quick, easy, and delicious kimchi soft tofu stew (sundubu jjigae) \uc21c\ub450\ubd80 \ucc0c\uac1c",
+        "description": "This warming and comforting Korean stew is made with extra soft tofu (soondubu), thinly sliced meat, and kimchi.  It really takes less than 30 minutes to prepare this flavor packed Korean tofu stew! \n\nFull Recipe: \nhttps://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/\n\nAnchovy Broth Recipe:\nhttps://www.koreanbapsang.com/how-to-make-anchovy-broth-for-korean/\n\nYou can find premium gochugaru from Korea on this affiliate link: https://www.seoulmills.com/products/myeongam-sanchae-red-pepper-powder-gochugaru-600g?ref=AcfF8Yoglqx_0\nUse coupon code KOREANBAPSANG10 for 10% off any purchase.\n\n**Follow Korean Bapsang - A Korean Mom's Home Cooking**\nFacebook: https://www.facebook.com/koreanbapsang/\nInstagram:https://www.instagram.com/koreanbapsang/\nWebsite: https://www.koreanbapsang.com\n\nShop Korean ingredients:\nhttps://www.seoulmills.com/?ref=AcfF8Yoglqx_0\n(Use coupon code: KOREANBAPSANG10 for 10% off on any purchase)\n\n#Koreanstew  #sundubujjigae #softtofu #soondubu #kimchi #\uc21c\ub450\ubd80\ucc0c\uac1c\n\nVideo By:\nAaron Strand, Stranded Entertainment",
+        "uploadDate": "2019-11-10T13:00:05+00:00",
+        "duration": "PT5M",
+        "thumbnailUrl": "https://i.ytimg.com/vi/SZr22jsLnCI/hqdefault.jpg",
+        "contentUrl": "https://www.youtube.com/watch?v=SZr22jsLnCI",
+        "embedUrl": "https://www.youtube.com/embed/SZr22jsLnCI?feature=oembed",
+        "@type": "VideoObject"
+      },
+      "recipeYield": [
+        "2"
+      ],
+      "prepTime": "PT10M",
+      "cookTime": "PT15M",
+      "totalTime": "PT25M",
+      "recipeIngredient": [
+        "1  package (12 ounces sundubu (extra soft/silken tofu))",
+        "\u2153 cup thinly sliced kimchi",
+        "3 ounces pork or beef",
+        "1 to 3 teaspoons red chili pepper flakes (gochugaru- add more for a spicier stew)",
+        "1 teaspoon minced garlic",
+        "1 tablespoon sesame oil (use a little more if using more gochugaru)",
+        "1 cup water or anchovy broth (See note)",
+        "2 to 3 tablespoons juice from kimchi",
+        "1/2 teaspoon saewujeot (salted shrimp) or salt to taste",
+        "pinch black pepper",
+        "1  scallion, finely chopped",
+        "1  egg - optional"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Cut the meat and kimchi into small thin strips. Add the kimchi, meat, red chili pepper flakes, garlic and sesame oil to a small pot, and place it over medium heat.",
+          "name": "Cut the meat and kimchi into small thin strips. Add the kimchi, meat, red chili pepper flakes, garlic and sesame oil to a small pot, and place it over medium heat.",
+          "url": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#wprm-recipe-7691-step-0-0",
+          "image": "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0562-e1421725180904.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Stir-fry until the meat is almost cooked, 3 - 4 minutes.",
+          "name": "Stir-fry until the meat is almost cooked, 3 - 4 minutes.",
+          "url": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#wprm-recipe-7691-step-0-1",
+          "image": "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0566-e1421725493416.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Pour in water (or broth) and the juice from the kimchi. Bring it to a boil, and continue to boil for 3 - 4 minutes. Skim off the scum.",
+          "name": "Pour in water (or broth) and the juice from the kimchi. Bring it to a boil, and continue to boil for 3 - 4 minutes. Skim off the scum.",
+          "url": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#wprm-recipe-7691-step-0-2",
+          "image": "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0568-e1421725771991.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add the soft tofu in big chunks. Stir in the salted shrimp or salt to taste (start with 1/4 teaspoon) and black pepper. Cook for 4 -5 minutes. Add the chopped scallion just before removing the pot from the heat. If desired, crack an egg into the stew to serve while it\u2019s still boiling hot.",
+          "name": "Add the soft tofu in big chunks. Stir in the salted shrimp or salt to taste (start with 1/4 teaspoon) and black pepper. Cook for 4 -5 minutes. Add the chopped scallion just before removing the pot from the heat. If desired, crack an egg into the stew to serve while it\u2019s still boiling hot.",
+          "url": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#wprm-recipe-7691-step-0-3",
+          "image": "https://www.koreanbapsang.com/wp-content/uploads/2015/01/DSC_0574-e1421725925710.jpg"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.43",
+        "ratingCount": "347"
+      },
+      "recipeCategory": [
+        "Main Course"
+      ],
+      "recipeCuisine": [
+        "Korean"
+      ],
+      "keywords": "kimchi, Korean stew, pork, silken tofu, sundubu",
+      "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#recipe",
+      "isPartOf": {
+        "@id": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#article"
+      },
+      "mainEntityOfPage": "https://www.koreanbapsang.com/kimchi-soondubu-jjigae-soft-tofu-stew-kimchi/#webpage"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.recipetineats.com/#organization",
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com/",
+      "sameAs": [
+        "https://www.facebook.com/RecipeTinEats",
+        "http://instagram.com/recipe_tin",
+        "https://www.linkedin.com/in/nagi-maehashi-9779648b",
+        "https://www.youtube.com/c/recipetineats",
+        "http://www.pinterest.com/recipetin/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.recipetineats.com/#logo",
+        "inLanguage": "en-US",
+        "url": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+        "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+        "width": 2591,
+        "height": 347,
+        "caption": "RecipeTin Eats"
+      },
+      "image": {
+        "@id": "https://www.recipetineats.com/#logo"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.recipetineats.com/#website",
+      "url": "https://www.recipetineats.com/",
+      "name": "RecipeTin Eats",
+      "description": "Fast Prep, Big Flavours",
+      "publisher": {
+        "@id": "https://www.recipetineats.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.recipetineats.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.recipetineats.com/chicken-chow-mein/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://www.recipetineats.com/wp-content/uploads/2018/08/Chow-Mein_1.jpg",
+      "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2018/08/Chow-Mein_1.jpg",
+      "width": 900,
+      "height": 1260,
+      "caption": "Close up photo of Chow Mein Noodles with chicken and vegetables"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.recipetineats.com/chicken-chow-mein/#webpage",
+      "url": "https://www.recipetineats.com/chicken-chow-mein/",
+      "name": "Chow Mein | RecipeTin Eats",
+      "isPartOf": {
+        "@id": "https://www.recipetineats.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.recipetineats.com/chicken-chow-mein/#primaryimage"
+      },
+      "datePublished": "2019-10-26T05:40:22+00:00",
+      "dateModified": "2020-05-06T04:50:00+00:00",
+      "description": "This real Chicken Chow Mein recipe really is restaurant quality. It all comes down to the sauce! This is faster than ordering take out - and much healthier!",
+      "breadcrumb": {
+        "@id": "https://www.recipetineats.com/chicken-chow-mein/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://www.recipetineats.com/chicken-chow-mein/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.recipetineats.com/chicken-chow-mein/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.recipetineats.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Collections",
+          "item": "https://www.recipetineats.com/category/collections/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Asian Takeout",
+          "item": "https://www.recipetineats.com/category/collections/asian-takeout/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Chow Mein"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.recipetineats.com/chicken-chow-mein/#article",
+      "isPartOf": {
+        "@id": "https://www.recipetineats.com/chicken-chow-mein/#webpage"
+      },
+      "author": {
+        "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
+      },
+      "headline": "Chow Mein",
+      "datePublished": "2019-10-26T05:40:22+00:00",
+      "dateModified": "2020-05-06T04:50:00+00:00",
+      "wordCount": 1486,
+      "commentCount": 868,
+      "publisher": {
+        "@id": "https://www.recipetineats.com/#organization"
+      },
+      "image": {
+        "@id": "https://www.recipetineats.com/chicken-chow-mein/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.recipetineats.com/wp-content/uploads/2018/08/Chow-Mein_1.jpg",
+      "keywords": [
+        "Asian",
+        "Chicken",
+        "Chinese",
+        "Easy",
+        "Entertaining",
+        "Fast",
+        "Healthy",
+        "Midweek Meal",
+        "Noodles",
+        "Stir Fry"
+      ],
+      "articleSection": [
+        "Asian Recipes",
+        "Asian Takeout",
+        "Chicken",
+        "Chicken Breast",
+        "Chinese recipes",
+        "Collections",
+        "Gluten Free Recipes",
+        "Main Dishes",
+        "Most Popular",
+        "Noodles",
+        "Quick and Easy",
+        "Quick Dinner Recipes"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://www.recipetineats.com/chicken-chow-mein/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+      "name": "Nagi",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.recipetineats.com/#personlogo",
+        "inLanguage": "en-US",
+        "url": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+        "contentUrl": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+        "caption": "Nagi"
+      },
+      "description": "I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
+      "sameAs": [
+        "http:////www.recipetineats.com/about-me/"
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Chow Mein",
+      "author": {
+        "@type": "Person",
+        "name": "Nagi | RecipeTin Eats"
+      },
+      "description": "Recipe video above. A great Chow Mein that truly rivals Chinese restaurants comes down to the sauce! Make this with your protein of choice (Note 1). Have all the ingredients ready to go before you start cooking because it&#x27;s done in 5 minutes!",
+      "datePublished": "2019-10-26T15:40:22+00:00",
+      "image": [
+        "https://www.recipetineats.com/wp-content/uploads/2018/08/Chow-Mein_1.jpg",
+        "https://www.recipetineats.com/wp-content/uploads/2018/08/Chow-Mein_1.jpg?w=500&h=500&crop=1",
+        "https://www.recipetineats.com/wp-content/uploads/2018/08/Chow-Mein_1.jpg?w=500&h=375&crop=1",
+        "https://www.recipetineats.com/wp-content/uploads/2018/08/Chow-Mein_1.jpg?w=480&h=270&crop=1"
+      ],
+      "recipeYield": [
+        "2",
+        "2 -3"
+      ],
+      "prepTime": "PT10M",
+      "cookTime": "PT5M",
+      "totalTime": "PT15M",
+      "recipeIngredient": [
+        "200g /6 oz chicken breast or thigh fillets, (thinly sliced (Note 1 tenderise option))",
+        "4 cups green cabbage (finely shredded (Note 3))",
+        "1 1/2 tbsp peanut oil ((or other cooking oil))",
+        "2 cloves garlic (, finely chopped)",
+        "200g /6 oz  chow mein noodles  ((Note 2))",
+        "1  carrot (, julienned)",
+        "1 1/2 cups bean sprouts",
+        "3  green onions (, cut into 5cm/2\" pieces)",
+        "1/4 cup (65 ml)  water",
+        "2 tsp cornflour / cornstarch",
+        "1 1/2 tbsp soy sauce (, all purpose or light (Note 4))",
+        "1 1/2 tbsp oyster sauce ((sub Hoisin))",
+        "1 1/2 tbsp Chinese cooking wine (OR Mirin (Note 5))",
+        "2 tsp sugar ((reduce to 1 tsp if using Mirin))",
+        "1/2 tsp sesame oil",
+        "White pepper ((sub black))"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToSection",
+          "name": "Sauce:",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Mix together cornflour and soy sauce, then mix in remaining ingredients.&nbsp;",
+              "name": "Mix together cornflour and soy sauce, then mix in remaining ingredients.&nbsp;",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-0-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Alternative:&nbsp;Use 1/3 cup Chinese All Purpose Stir Fry Sauce, if you have some in stock.",
+              "name": "Alternative:&nbsp;Use 1/3 cup Chinese All Purpose Stir Fry Sauce, if you have some in stock.",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-0-1"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Chicken &amp; Noodles",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Marinate Chicken: Pour 1 tbsp of Sauce over the chicken, mix to coat, set aside to marinate for 10 minutes.",
+              "name": "Marinate Chicken: Pour 1 tbsp of Sauce over the chicken, mix to coat, set aside to marinate for 10 minutes.",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-1-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Noodles: Prepare the noodles according to the packet instructions (my pack says soak in boiled water for 1 minute), then drain.",
+              "name": "Noodles: Prepare the noodles according to the packet instructions (my pack says soak in boiled water for 1 minute), then drain.",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-1-1"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Cooking:",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Heat oil in wok or large fry pan over high heat.",
+              "name": "Heat oil in wok or large fry pan over high heat.",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-2-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add garlic and stir fry for 10 seconds or until it starts to turn golden - don't let it burn!",
+              "name": "Add garlic and stir fry for 10 seconds or until it starts to turn golden - don't let it burn!",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-2-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add chicken and stir fry until the surface gets a tinge of browning but inside is still raw - about 1 minute.&nbsp;",
+              "name": "Add chicken and stir fry until the surface gets a tinge of browning but inside is still raw - about 1 minute.&nbsp;",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-2-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add the cabbage, carrot, and the white pieces of shallots (i.e. from the base of the stalk). Stir fry for 1 1/2 minutes until the cabbage is mostly wilted.",
+              "name": "Add the cabbage, carrot, and the white pieces of shallots (i.e. from the base of the stalk). Stir fry for 1 1/2 minutes until the cabbage is mostly wilted.",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-2-3"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add the noodles, Sauce and water*. Stir fry for 1 minute, tossing constantly.&nbsp;",
+              "name": "Add the noodles, Sauce and water*. Stir fry for 1 minute, tossing constantly.&nbsp;",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-2-4"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add bean sprouts and remaining shallots/scallions. Toss through for 30 seconds or until the bean sprouts just start to wilt.",
+              "name": "Add bean sprouts and remaining shallots/scallions. Toss through for 30 seconds or until the bean sprouts just start to wilt.",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-2-5"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Remove from heat and serve immediately.",
+              "name": "Remove from heat and serve immediately.",
+              "url": "https://www.recipetineats.com/chicken-chow-mein/#wprm-recipe-20703-step-2-6"
+            }
+          ]
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.99",
+        "ratingCount": "257"
+      },
+      "recipeCategory": [
+        "Noodles"
+      ],
+      "recipeCuisine": [
+        "Chinese"
+      ],
+      "keywords": "chicken chow mein, chinese noodles, Chow Mein, Thai stir fried noodles",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "428 g",
+        "calories": "554 kcal",
+        "carbohydrateContent": "46.5 g",
+        "proteinContent": "28 g",
+        "fatContent": "31.2 g",
+        "saturatedFatContent": "5.2 g",
+        "cholesterolContent": "76 mg",
+        "sodiumContent": "1089 mg",
+        "fiberContent": "5.4 g",
+        "sugarContent": "9.2 g",
+        "unsaturatedFatContent": "26 g"
+      },
+      "@id": "https://www.recipetineats.com/chicken-chow-mein/#recipe",
+      "isPartOf": {
+        "@id": "https://www.recipetineats.com/chicken-chow-mein/#article"
+      },
+      "mainEntityOfPage": "https://www.recipetineats.com/chicken-chow-mein/#webpage"
+    }
+  ]
+}
