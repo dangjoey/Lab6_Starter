@@ -126,7 +126,11 @@ class RecipeCard extends HTMLElement {
 
     if (searchForKey(data, "ratingValue") != undefined) {
       const review = document.createElement("span");
-      review.innerHTML = Math.round(searchForKey(data, "ratingValue"));
+      let ratingValue = searchForKey(data, "ratingValue");
+      if (typeof ratingValue === "number") {
+        ratingValue = ratingValue.toFixed(2);
+      }
+      review.innerHTML = ratingValue;
       rating.appendChild(review);
 
       const starImg = document.createElement("img");

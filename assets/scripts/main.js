@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/chow-mein.json',
+  'assets/recipes/fried-chicken.json',
+  'assets/recipes/tofu-soup.json',
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -72,9 +75,9 @@ function createRecipeCards() {
 
   // Part 1 Expose - TODO
   const recipeSection = document.querySelector("main");
-  for (const recipe of recipes) {
+  for (let i = 0; i < 3; i++) {
     const newRecipeCard = document.createElement('recipe-card');
-    newRecipeCard.data = recipeData[recipe];
+    newRecipeCard.data = recipeData[recipes[i]];
     recipeSection.appendChild(newRecipeCard);
   }
 }
@@ -88,4 +91,25 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+  const button = document.querySelector("#button-wrapper > button");
+  const main = document.getElementsByTagName('main')[0];
+
+  button.addEventListener("click", (e) => {
+    if (button.innerHTML === "Show more") {
+      for (let i = 3; i < Object.keys(recipeData).length; i++) {
+        const card = document.createElement("recipe-card");
+        card.data = recipeData[recipes[i]];
+        main.appendChild(card);
+      }
+
+      button.innerHTML = "Show less";
+    } 
+    else if (button.innerHTML === "Show less") {
+      for (let i = 3; i < Object.keys(recipeData).length; i++) {
+        main.removeChild(main.lastElementChild);
+      }
+
+      button.innerHTML = "Show more";
+    }
+  });
 }
