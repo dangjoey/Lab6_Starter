@@ -3,6 +3,8 @@ class RecipeCard extends HTMLElement {
     // Part 1 Expose - TODO
 
     // You'll want to attach the shadow DOM here
+    super();
+    this.shadow = this.attachShadow({mode: 'open'});
   }
 
   set data(data) {
@@ -100,6 +102,61 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+
+    const recipeImg = document.createElement("img");
+    recipeImg.src = searchForKey(data, "thumbnailUrl");
+    recipeImg.alt = searchForKey(data, "headline");
+    card.appendChild(recipeImg);
+
+    const title = document.createElement("p");
+    title.setAttribute("class", "title");
+    const titleLink = document.createElement("a");
+    titleLink.href = getUrl(data);
+    titleLink.innerHTML = searchForKey(data, "headline");
+    title.appendChild(titleLink);
+    card.appendChild(title);
+
+    const organization = document.createElement("p");
+    organization.setAttribute("class", "organization");
+    organization.innerHTML = getOrganization(data);
+    card.appendChild(organization);
+
+    const rating = document.createElement("div");
+    rating.setAttribute("class", "rating");
+
+    if (searchForKey(data, "ratingValue") != undefined) {
+      const review = document.createElement("span");
+      review.innerHTML = Math.round(searchForKey(data, "ratingValue"));
+      rating.appendChild(review);
+
+      const starImg = document.createElement("img");
+      starImg.src = `assets/images/icons/${Math.round(searchForKey(data, "ratingValue"))}-star.svg`;
+      starImg.alt = `${Math.round(searchForKey(data, "ratingValue"))} stars`;
+      rating.appendChild(starImg);
+
+      const reviewsTotal = document.createElement("span");
+      reviewsTotal.innerHTML = `(${searchForKey(data, "ratingCount")})`;
+      rating.appendChild(reviewsTotal);
+    }
+    else {
+      const review = document.createElement("span");
+      review.innerHTML = "No Reviews";
+      rating.appendChild(review);
+    }
+
+    card.appendChild(rating);
+
+    const time = document.createElement("time");
+    time.innerHTML = convertTime(searchForKey(data, "totalTime"));
+    card.appendChild(time);
+
+    const ingredients = document.createElement("p");
+    ingredients.setAttribute("class", "ingredients");
+    ingredients.innerHTML = createIngredientList(searchForKey(data, "recipeIngredient"));
+    card.appendChild(ingredients);
+
+    this.shadow.appendChild(styleElem);
+    this.shadow.appendChild(card);
   }
 }
 
